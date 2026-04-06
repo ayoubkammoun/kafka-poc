@@ -1,0 +1,11 @@
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/consumer/OrderConsumer.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/producer/NotificationProducer.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/config/KafkaConsumerConfig.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/service/OrderProcessingService.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/model/Order.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/model/Notification.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/config/KafkaTopicConfig.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/consumer/NotificationConsumer.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/controller/OrderController.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/KafkaApplication.java
+/home/ayoub/ayoub/ayoub/exemple/src/main/java/com/exemple/kafka/producer/OrderProducer.java

@@ -1,0 +1,27 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      group-id: kafka-demo-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "com.exemple.kafka.model"
+        spring.json.use.type.headers: true
+
+kafka:
+  topics:
+    orders: orders-topic
+    notifications: notifications-topic
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.exemple.kafka: DEBUG
+    org.apache.kafka: WARN

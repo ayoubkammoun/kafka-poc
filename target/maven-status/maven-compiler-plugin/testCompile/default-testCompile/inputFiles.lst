@@ -1,0 +1,6 @@
+/home/ayoub/ayoub/ayoub/exemple/src/test/java/com/exemple/kafka/controller/OrderControllerTest.java
+/home/ayoub/ayoub/ayoub/exemple/src/test/java/com/exemple/kafka/consumer/OrderConsumerTest.java
+/home/ayoub/ayoub/ayoub/exemple/src/test/java/com/exemple/kafka/service/OrderProcessingServiceTest.java
+/home/ayoub/ayoub/ayoub/exemple/src/test/java/com/exemple/kafka/producer/OrderProducerTest.java
+/home/ayoub/ayoub/ayoub/exemple/src/test/java/com/exemple/kafka/consumer/NotificationConsumerTest.java
+/home/ayoub/ayoub/ayoub/exemple/src/test/java/com/exemple/kafka/KafkaIntegrationTest.java
