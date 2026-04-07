@@ -1,0 +1,6 @@
+com/exemple/common/model/Order.class
+com/exemple/common/model/Order$OrderBuilder.class
+com/exemple/common/model/Order$OrderStatus.class
+com/exemple/common/model/Notification.class
+com/exemple/common/model/Notification$NotificationType.class
+com/exemple/common/model/Notification$NotificationBuilder.class

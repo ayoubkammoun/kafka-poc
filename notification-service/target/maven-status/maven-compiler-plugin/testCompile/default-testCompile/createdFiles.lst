@@ -1,0 +1,3 @@
+com/exemple/notification/service/OrderProcessingServiceTest.class
+com/exemple/notification/consumer/OrderConsumerTest.class
+com/exemple/notification/consumer/NotificationConsumerTest.class

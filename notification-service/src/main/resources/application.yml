@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: notification-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        spring.json.add.type.headers: true
+    consumer:
+      group-id: notification-demo-group
+      auto-offset-reset: earliest
+
+kafka:
+  topics:
+    orders: orders-topic
+    notifications: notifications-topic
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com.exemple.notification: DEBUG
+    org.apache.kafka: WARN
